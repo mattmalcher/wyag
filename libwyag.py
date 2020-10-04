@@ -67,7 +67,6 @@ class GitRepository(object):
     conf = None
 
     def __init__(self, path, force=False):
-
         self.worktree = path
         self.gitdir = os.path.join(path, ".git")
 
